@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es6",
+    "removeComments": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "stripInternal": true,
+    "noFallthroughCasesInSwitch": true,
+    "outDir": "build",
+    "noEmitOnError": true
+  },
+  "types": [
+    "karma"
+  ],
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
